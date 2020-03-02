@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+<title> ATM</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript">
+       
+    </script>
+        
+
+
+</head>
+
+<body>
+<header>
+<h1>ATM</h1>
+</header>
+
+<main>
+<h1>ATM</h1>
+<form name="atmForm" action="" method="post">
+      
+       <fieldset id="name"><legend> Customer Name</legend>
+        <label><span>Full Name</span><input type="text" name="ename" type="string"/> </label>
+       </fieldset> 
+        
+        
+        
+        
+        
+<fieldset id="start"><legend>Starting Balance</legend>
+<p>Enter The Starting Balance of your Account</p>
+	<label><span>Starting Balance</span>$<input name="acctbalance" type="number"></label>
+	<button type="button" id= "sbutton" ='sbutton' >Submit Balance</button>
+   
+</fieldset>
+
+<fieldset id="func"><legend>Withdraw | Deposit</legend>
+    <label><span>Withdraw</span>$<input name="withdraw" type="number"></label>
+	<button id="wbutton" name="wbutton" type="button" >Withdraw</button>
+	
+	<label><span>Deposit</span>$<input name="deposit" type="number"></label>
+	<button type="button" id="dbutton" name="dbutton" >Desposit</button>
+    
+</fieldset>
+
+
+
+
+
+
+</form>
+
+
+<h2>Account Summary</h2>
+<div id="feedback"><p></p></div>
+</main>
+
+
+</body>
+<script type="text/javascript" src="js/main2.js"></script>
+</html>
